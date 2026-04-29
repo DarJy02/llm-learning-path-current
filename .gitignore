@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.env
+.env.*
+*.pem
+*.key
+
+# LLaMA-Factory
+LLaMA-Factory/saves/
+LLaMA-Factory/llamaboard_cache/
+LLaMA-Factory/llamaboard_config/
+
+# IDE
+.vscode/
+.idea/
+**/.claude/settings.local.json
+
+# Data files
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3902 @@
+[
+  {
+    "instruction": "物流停在转运中心两天没动正常吗？",
+    "input": "",
+    "output": "两天没有新节点多半是转运积压或漏扫，暂时不能直接判断丢件。建议现在就从物流页发起催查，不用再干等。催查会让承运方回查包裹位置。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_001"
+    }
+  },
+  {
+    "instruction": "快递显示已签收但我没收到。",
+    "input": "",
+    "output": "这类情况先按签收异常处理。在物流详情里提交未收到反馈，同时保留签收时间和投递地点截图。这里要注意，先别点确认收货或关闭售后入口。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_002"
+    }
+  },
+  {
+    "instruction": "已经发货了还能改收货地址吗？",
+    "input": "",
+    "output": "发货后改地址要看承运方是否支持改派。先在物流页试修改地址；没有入口就联系配送员或申请拦截。距离太远时可能只能拒收后重拍。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_003"
+    }
+  },
+  {
+    "instruction": "快递外箱破了，我要拒收吗？",
+    "input": "",
+    "output": "外箱破损明显时，先当面验货。商品也破损或缺件就拒收；商品完好也请拍照留证。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_004"
+    }
+  },
+  {
+    "instruction": "物流写派送失败，但我一直在家。",
+    "input": "",
+    "output": "先确认关键点：如果号码有误，要尽快在物流页反馈。一般会再次派送，但最好主动处理一下。先核对订单手机号，再联系配送员约定时间。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_005"
+    }
+  },
+  {
+    "instruction": "同一个订单为什么分两个快递？",
+    "input": "",
+    "output": "一个订单拆成多个包裹很常见，通常和仓库、库存或商品体积有关。在订单详情里分别查看每个物流单号，按未到包裹的预计时间跟进。超过预计时间再单独催查未到包裹。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_006"
+    }
+  },
+  {
+    "instruction": "快递说让我点链接补运费才能派送。",
+    "input": "",
+    "output": "不要直接点陌生链接，也不要在里面填支付或证件信息。请回到订单物流页查看是否真的有费用提示，必要时联系官方客服核实。这里要注意，跨站链接很容易造成信息泄露。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_007"
+    }
+  },
+  {
+    "instruction": "我明天出差，包裹今天必须到。",
+    "input": "",
+    "output": "这种情况确实会影响使用。理解您着急用，已经到本地站点的话还有协商空间。可以先联系配送员说明今天必须收件，同时在物流页申请催派。能否当天送达取决于配送路线。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_008"
+    }
+  },
+  {
+    "instruction": "跨境订单清关很久，是不是被扣了？",
+    "input": "",
+    "output": "清关停留几天不一定是被扣，也可能在等待海关或承运方处理。先看订单页是否有补资料入口；没有官方入口时不要随意上传证件。清关资料只通过平台官方入口提交。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_009"
+    }
+  },
+  {
+    "instruction": "快递被放到很远的驿站，可以要求重新派送吗？",
+    "input": "",
+    "output": "可以先联系配送员协商重新派送。如果未经同意放到远驿站，也可以在物流页反馈配送服务问题。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_010"
+    }
+  },
+  {
+    "instruction": "物流显示退回商家，我还想要这个商品。",
+    "input": "",
+    "output": "包裹已经退回后，原单通常很难继续派送。建议先看订单是否自动退款，再用正确地址重新下单。如果地址没问题，可以反馈退回原因让客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_011"
+    }
+  },
+  {
+    "instruction": "我想改配送时间，页面没有入口。",
+    "input": "",
+    "output": "先确认关键点：晚间派送取决于当地路线安排。可以尝试和配送员约时间，但页面没有入口时不能强制指定。建议尽快联系配送员说明可收货时段，联系不上再从物流页反馈。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_012"
+    }
+  },
+  {
+    "instruction": "生鲜快递延误一天还能吃吗？",
+    "input": "",
+    "output": "能不能食用要看实际温控和商品状态，不能只看延误时间判断。收到后先检查冰袋、包装完整度、气味和商品状态；异常就拍照申请售后。生鲜问题要尽快反馈。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_013"
+    }
+  },
+  {
+    "instruction": "快递员说包裹找不到，让我先确认收货。",
+    "input": "",
+    "output": "不要先确认收货。请让配送员继续查找，并在物流页反馈包裹异常；确认收货后再处理会更被动。这里要注意，包裹未拿到前不要关闭交易状态。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_014"
+    }
+  },
+  {
+    "instruction": "我买的药品还没到，家里老人等着用。",
+    "input": "",
+    "output": "这种情况确实会影响使用。这种急用场景可以先走催查和催派。请在物流页反馈急用原因，同时联系配送员或官方客服催促。如果短时间无法送达，建议同步考虑线下或同城渠道。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_015"
+    }
+  },
+  {
+    "instruction": "快递显示运输中，我能指定换一家快递吗？",
+    "input": "",
+    "output": "已经发出的包裹通常不能中途更换承运公司。您可以关注当前物流，或在到达本地后联系配送员协商派送时间。下次下单前可先看商品是否支持指定配送。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_016"
+    }
+  },
+  {
+    "instruction": "订单一直待付款，但我已经付过钱了。",
+    "input": "",
+    "output": "先不要重复支付。等几分钟刷新订单；如果仍是待付款，提供支付流水截图让客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_017"
+    }
+  },
+  {
+    "instruction": "订单备货中一天了，会不会没货？",
+    "input": "",
+    "output": "备货中不等于缺货，但说明还没进入发货环节。可以先催发并看商家回复；如果急用，取消后买现货更稳。缺货时商家通常会给出延迟或退款提示。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_018"
+    }
+  },
+  {
+    "instruction": "我申请取消了，为什么还是发货？",
+    "input": "",
+    "output": "取消失败通常是订单已经打包、出库或交给物流。可以尝试物流拦截；拦截失败就等派送时拒收。退款要等拦截成功、拒收退回或退货完成。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_019"
+    }
+  },
+  {
+    "instruction": "订单被系统取消了，我没操作过。",
+    "input": "",
+    "output": "先确认关键点：能否保留原价要看活动和库存。先看取消原因，恢复原订单通常比较难。请把订单关闭原因截图发客服核实；如果是超时、缺货或风控导致，多数需要重新下单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_020"
+    }
+  },
+  {
+    "instruction": "一个订单买了三件，只收到两件。",
+    "input": "",
+    "output": "先别急着按漏发处理，可能是分包裹发货。在订单详情里看是否有多个物流单号；如果没有，再拍外包装和实收商品申请漏发核实。外包装和面单照片很关键。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_021"
+    }
+  },
+  {
+    "instruction": "客服说订单异常，要我提供银行卡号核实。",
+    "input": "",
+    "output": "不要提供完整银行卡号、密码或验证码。订单问题请回到平台官方客服入口处理，最多按要求提供订单截图。这里要注意，验证码和支付信息不能交给任何私信人员。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_022"
+    }
+  },
+  {
+    "instruction": "我用了礼品卡付款，退款退到哪里？",
+    "input": "",
+    "output": "礼品卡支付部分通常退回礼品卡账户，不一定回到银行卡。您可以在礼品卡余额和退款详情里分别查看。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_023"
+    }
+  },
+  {
+    "instruction": "订单缺货还不通知，我等了好几天。",
+    "input": "",
+    "output": "这种情况确实会影响使用。等了几天还没有明确结果，确实会影响安排。您可以要求商家确认最晚发货时间；急用的话，建议取消后换有现货的商品。继续等待也可能最终因缺货退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_024"
+    }
+  },
+  {
+    "instruction": "预售尾款忘记付，定金还能退吗？",
+    "input": "",
+    "output": "定金是否退还要看预售规则，不能直接保证可退。请先查看订单里的预售协议；如果规则写明逾期不退，客服也很难直接改。有争议时可以提交规则截图申请核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_025"
+    }
+  },
+  {
+    "instruction": "订单显示部分退款，另一件为什么没退？",
+    "input": "",
+    "output": "退款可能按商品拆分处理，不一定一次退完。先看另一件商品是否已取消或售后通过；没有进入退款流程的商品不会自动退款。组合订单要按商品维度看进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_026"
+    }
+  },
+  {
+    "instruction": "我下单后想改规格，页面不能改。",
+    "input": "",
+    "output": "先确认关键点：取消后原活动价不一定能恢复。规格不能直接改时，取消重拍通常更稳，但要先看优惠是否还能用。建议先重新打开商品页确认库存和价格，再决定是否取消原单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_027"
+    }
+  },
+  {
+    "instruction": "订单显示已完成，但我还没收到。",
+    "input": "",
+    "output": "订单完成和物流签收不一致时，需要先核实状态同步。请保留订单状态和物流截图，联系官方客服核实是否系统异常或签收信息延迟。先不要删除物流凭证。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_028"
+    }
+  },
+  {
+    "instruction": "我收到两个一样的订单，是不是重复下单？",
+    "input": "",
+    "output": "先确认是否真的生成了两个订单。如果两个订单都存在，保留一个后尽快取消另一个；如果只有一个订单却扣两次，提供支付流水核实重复扣款。这里要注意，不要继续再次支付。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_029"
+    }
+  },
+  {
+    "instruction": "发货前可以改收件手机号吗？",
+    "input": "",
+    "output": "未出库时一般更容易修改。您可以进订单详情找修改收货信息入口；没有入口就联系官方客服协助。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_030"
+    }
+  },
+  {
+    "instruction": "衣服吊牌还在但试穿不合适，能换码吗？",
+    "input": "",
+    "output": "这种情况可以优先申请换货。在订单售后里选择换货并确认目标尺码库存；没有库存再考虑退货重拍。吊牌和包装尽量保留。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_031"
+    }
+  },
+  {
+    "instruction": "商品拆封试用了，还能七天无理由退吗？",
+    "input": "",
+    "output": "拆封试用后是否能退，要看商品类目和是否影响二次销售。可以先提交退货申请并说明试用情况，质量问题请补视频。不要丢包装和配件。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_032"
+    }
+  },
+  {
+    "instruction": "退货上门取件能改时间吗？",
+    "input": "",
+    "output": "可以先在售后取件页看有没有改约入口。没有入口就联系取件员协商，错过取件后可能需要重新预约。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_033"
+    }
+  },
+  {
+    "instruction": "鞋盒压坏了但鞋子没问题，能退吗？",
+    "input": "",
+    "output": "先确认关键点：鞋盒属于包装的一部分。要看鞋盒破损是否影响二次销售。提交退货时把鞋盒和鞋子照片一起上传，售后会按商品状态审核。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_034"
+    }
+  },
+  {
+    "instruction": "买错颜色了，能不能只换颜色？",
+    "input": "",
+    "output": "能否换颜色取决于商品是否支持换货和黑色库存。在售后页看可换规格；如果没有黑色可选，就退货后重新下单。不要先自行寄回。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_035"
+    }
+  },
+  {
+    "instruction": "退货地址是商家私信发我的，可以直接寄吗？",
+    "input": "",
+    "output": "不建议私下寄回。请等售后单审核通过，并按售后页面地址寄件。这里要注意，私下寄回可能无法匹配售后单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_036"
+    }
+  },
+  {
+    "instruction": "退货审核一直不过，我真的没用过。",
+    "input": "",
+    "output": "这种情况确实会影响使用。可以申诉，但要围绕拒绝原因补材料。请补商品现状、包装、配件和未使用痕迹照片；如果仍有争议，再申请平台介入复核。只说没用过通常证据不够。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_037"
+    }
+  },
+  {
+    "instruction": "生鲜收到不新鲜，隔天还能退吗？",
+    "input": "",
+    "output": "生鲜售后很看反馈时效，隔天申请可能会影响审核。仍建议尽快上传商品状态、外包装和签收时间说明。越晚反馈越难判断责任。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_038"
+    }
+  },
+  {
+    "instruction": "包装袋丢了，商品没用过还能退吗？",
+    "input": "",
+    "output": "包装缺失可能影响审核，但不代表一定不能申请。如实说明包装已丢，上传商品和配件照片，让售后按类目规则判断。需要完整包装的商品会更严格。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_039"
+    }
+  },
+  {
+    "instruction": "退货物流显示签收，为什么还没退款？",
+    "input": "",
+    "output": "签收后还需要商家验货。一般等售后状态变成验货通过后才会退款；超过页面时效再催处理。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_040"
+    }
+  },
+  {
+    "instruction": "换货的新商品什么时候发？",
+    "input": "",
+    "output": "先确认关键点：不同店铺换货流程会不同。不一定，通常要等旧商品签收并验货通过。您可以看换货单的审核节点；如果已通过但未发新货，再联系售后催发。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_041"
+    }
+  },
+  {
+    "instruction": "书角压弯了，我想换一本新的。",
+    "input": "",
+    "output": "可以按商品破损申请换货。上传书角折损、商品整体和外包装照片；有库存时通常优先换货。无库存时可能改退货退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_042"
+    }
+  },
+  {
+    "instruction": "定制商品做错尺寸了能退吗？",
+    "input": "",
+    "output": "定制商品通常不支持无理由退货。如果是商家制作错误，上传下单尺寸和实物测量照片申请售后；如果是自己填错，可能只能协商处理。定制类要看责任归属。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_043"
+    }
+  },
+  {
+    "instruction": "商家让我撤销售后再重新申请。",
+    "input": "",
+    "output": "问题没解决前不要轻易撤销售后。先让商家说明撤销后的处理方式，并尽量通过平台售后单沟通。这里要注意，撤销后可能影响举证和处理进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_044"
+    }
+  },
+  {
+    "instruction": "冰箱不制冷但过了退换期，怎么办？",
+    "input": "",
+    "output": "超过退换期后通常先走保修维修或检测。在订单售后提交维修申请，上传故障视频和机器铭牌照片。是否换新要看检测结果和保修规则。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_045"
+    }
+  },
+  {
+    "instruction": "维修申请提交三天没人联系。",
+    "input": "",
+    "output": "这种情况确实会影响使用。三天没受理确实不太理想，可以升级催办。补充可上门时间、故障视频和联系电话，并在售后单里申请催处理。急用家电可以写明影响正常使用。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_046"
+    }
+  },
+  {
+    "instruction": "洗衣机安装后漏水，找安装还是售后？",
+    "input": "",
+    "output": "先从安装服务单反馈更快。同时拍漏水视频和接口位置；如果判断不是安装问题，再转商品售后检测。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_047"
+    }
+  },
+  {
+    "instruction": "耳机一边没声音，能直接换吗？",
+    "input": "",
+    "output": "先确认关键点：不要自行拆修。用了两周后通常需要先提交质量问题售后。上传故障视频，按页面要求检测；确认质量问题后再维修、换货或退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_048"
+    }
+  },
+  {
+    "instruction": "赠品坏了，能单独补发吗？",
+    "input": "",
+    "output": "赠品能否单独补发要看活动规则和库存。在售后里选择赠品问题并上传损坏照片；不能补发时可能给其他方案。不要为了赠品直接退整单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_049"
+    }
+  },
+  {
+    "instruction": "收到商品少了充电线。",
+    "input": "",
+    "output": "配件缺失一般先核实补发。拍商品全套、外包装和配件清单，提交配件漏发售后。无法补发时再看换货或退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_050"
+    }
+  },
+  {
+    "instruction": "商品有烧焦味还能继续用吗？",
+    "input": "",
+    "output": "先停止使用，不建议继续通电测试。拍视频并保留包装，按质量安全问题提交售后。这里要注意，涉及异味、冒烟、发热要优先安全。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_051"
+    }
+  },
+  {
+    "instruction": "手机屏幕刚开机就有亮点。",
+    "input": "",
+    "output": "这种情况确实会影响使用。刚收到就发现亮点，可以按质量问题申请换货。上传屏幕亮点照片或视频、商品外观和包装照片。最终是否换新以检测和售后规则为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_052"
+    }
+  },
+  {
+    "instruction": "热水器师傅说墙体不适合安装。",
+    "input": "",
+    "output": "先让师傅在服务单写明无法安装原因。保留现场照片，再分别申请安装费核实和商品退货售后。是否退款要看服务是否发生和商品状态。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_053"
+    }
+  },
+  {
+    "instruction": "说明书丢了会影响保修吗？",
+    "input": "",
+    "output": "说明书丢失一般不直接影响保修。保修更看订单记录、商品序列号和故障原因。如果配件缺失，部分处理可能受影响。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_054"
+    }
+  },
+  {
+    "instruction": "锅用了几次掉涂层，商家说人为。",
+    "input": "",
+    "output": "先确认关键点：检测前先暂停使用。可以补充证据申请复核。上传涂层脱落细节、使用工具说明和购买时间，必要时申请平台介入。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_055"
+    }
+  },
+  {
+    "instruction": "维修寄回后没有进度。",
+    "input": "",
+    "output": "先催售后单，不要只催快递。把寄回物流单号发在售后单里，要求确认检测进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_056"
+    }
+  },
+  {
+    "instruction": "台灯收到就不亮，换插座也不行。",
+    "input": "",
+    "output": "刚签收就无法使用，可以按质量问题申请换货。上传不亮的视频、商品外观和包装照片。保留配件和赠品一起处理。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_057"
+    }
+  },
+  {
+    "instruction": "充电宝鼓起来了，还能寄回售后吗？",
+    "input": "",
+    "output": "鼓包电池有安全风险，先不要继续使用或充电。联系官方客服确认退回方式，按要求包装和寄送。这里要注意，不要自行拆开或挤压。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_058"
+    }
+  },
+  {
+    "instruction": "售后让我等检测，但我急着用电脑。",
+    "input": "",
+    "output": "这种情况确实会影响使用。急用可以理解，但先换新要看售后规则和检测结果。您可以申请加急检测，同时说明工作急用；如果店铺有备用机或先换服务，再看是否符合条件。普通维修不一定支持先发新机。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_059"
+    }
+  },
+  {
+    "instruction": "空调安装后制冷很差。",
+    "input": "",
+    "output": "先确认关键点：只凭体感很难直接定责。要先区分安装、使用环境和机器故障。建议拍运行视频、房间面积信息和安装位置，让售后或服务商判断。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_060"
+    }
+  },
+  {
+    "instruction": "收到的桌子少了螺丝。",
+    "input": "",
+    "output": "少螺丝通常优先补寄配件。拍配件包、说明书配件清单和外包装，提交配件缺失申请。不要先自行安装到一半再拆。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_061"
+    }
+  },
+  {
+    "instruction": "这款手机壳适配 Pro 还是标准版？",
+    "input": "",
+    "output": "手机壳必须按完整机型匹配。请选规格里明确写 Pro 的版本，标准版通常不能混用。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_062"
+    }
+  },
+  {
+    "instruction": "商品图是新包装，能保证发新包装吗？",
+    "input": "",
+    "output": "可以备注，但不能保证仓库一定发新包装。如果页面有新版独立规格，请选对应规格；没有的话按实际库存批次发货。核心看规格、配方和保质期是否一致。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_063"
+    }
+  },
+  {
+    "instruction": "这款奶粉保质期还有多久？",
+    "input": "",
+    "output": "具体保质期要看仓库实际批次。下单前可以咨询商家是否能确认近期批次；收到后以罐底或包装标注为准。不建议客服随意估算日期。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_064"
+    }
+  },
+  {
+    "instruction": "这个电源适配器能给我的平板用吗？",
+    "input": "",
+    "output": "先确认关键点：规格不合可能充电慢或发热。先别只看接口，充电规格也要匹配。请核对平板原装功率、电压电流和快充协议，再选明确适配的款式。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_065"
+    }
+  },
+  {
+    "instruction": "升级款和普通款差别大吗？",
+    "input": "",
+    "output": "如果只是日常使用，先看升级点是不是您真的需要。重点对比参数、配件和保修，不要只看“升级款”三个字。页面写清楚的差异才可靠。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_066"
+    }
+  },
+  {
+    "instruction": "20寸行李箱一定能登机吗？",
+    "input": "",
+    "output": "20 寸不等于一定能登机。还要看外部尺寸、轮子和把手是否计入，以及航空公司规定。建议按航司尺寸限制核对后再买。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_067"
+    }
+  },
+  {
+    "instruction": "这个床垫能送货上楼吗？",
+    "input": "",
+    "output": "无电梯送上楼要看商品服务和当地配送规则。下单前看是否标注送货上楼及楼层限制，页面不清楚就先问商家。大件商品到货后再协商会比较被动。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_068"
+    }
+  },
+  {
+    "instruction": "净水器滤芯不知道适不适配。",
+    "input": "",
+    "output": "先确认关键点：外观相似不代表能通用。滤芯适配要看机器型号和滤芯型号。建议拍机器铭牌、旧滤芯型号和接口，再让商家确认。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_069"
+    }
+  },
+  {
+    "instruction": "详情页没写重量，客服能估一下吗？",
+    "input": "",
+    "output": "不建议估算重量。请以商品参数、包装信息或仓库称重为准；页面缺失时可以让商家核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_070"
+    }
+  },
+  {
+    "instruction": "这个儿童座椅适合几岁孩子？",
+    "input": "",
+    "output": "儿童座椅不要只看年龄。更要看身高、体重范围、安装方式和车辆接口。孩子接近边界时选余量更大的型号。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_071"
+    }
+  },
+  {
+    "instruction": "买投影幕布多大合适？",
+    "input": "",
+    "output": "不能只按客厅宽度定尺寸。还要看投影距离、投射比、墙面高度和观看距离。尺寸过大反而影响观看舒适度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_072"
+    }
+  },
+  {
+    "instruction": "这个商品是不是正品？",
+    "input": "",
+    "output": "是否正品要看店铺资质、商品来源和页面承诺。建议查看店铺类型、授权信息、评价和售后保障。收到后有疑问可凭订单和检测材料申请售后。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_073"
+    }
+  },
+  {
+    "instruction": "电脑内存条买错频率能用吗？",
+    "input": "",
+    "output": "内存兼容要看代数、频率、容量和主板支持。请先确认机器支持上限，再选规格；不确定就让商家按型号核对。拆封试装后退货会更麻烦。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_074"
+    }
+  },
+  {
+    "instruction": "食品临期多久算正常？",
+    "input": "",
+    "output": "能备注日期需求，但不一定能按备注发货。建议看页面是否标注临期或批次范围，收到后再核对包装日期。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_075"
+    }
+  },
+  {
+    "instruction": "这款鞋偏码吗？",
+    "input": "",
+    "output": "先确认关键点：不同品牌版型差异会很大。尺码建议要看脚长和商品尺码表。您可以量脚长后对照详情页，不要只按平时码数选。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_076"
+    }
+  },
+  {
+    "instruction": "刚买完就降价了，能退差价吗？",
+    "input": "",
+    "output": "先看订单是否支持价格保护。在订单详情里点价保申请，系统会自动校验差价。秒杀、预售或券后价可能不支持。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_077"
+    }
+  },
+  {
+    "instruction": "优惠券结算时为什么不抵扣？",
+    "input": "",
+    "output": "先点开结算页的不可用原因。常见是商品范围、金额门槛、叠加规则或账号限制不符合。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_078"
+    }
+  },
+  {
+    "instruction": "下单忘记用券，能补差价吗？",
+    "input": "",
+    "output": "优惠券通常不能在下单后补用。如果还没发货可以考虑取消重拍；已发货一般按原订单价格履约。取消前先看券和库存是否还在。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_079"
+    }
+  },
+  {
+    "instruction": "凑单满减后退一件，优惠会变吗？",
+    "input": "",
+    "output": "会重新计算优惠。退款金额通常会扣除该商品分摊的满减，剩余订单不满足门槛时也会调整。提交前看退款预估明细。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_080"
+    }
+  },
+  {
+    "instruction": "直播间价格比我买的便宜，能补差吗？",
+    "input": "",
+    "output": "先确认关键点：不同渠道优惠规则可能不同。直播价可能是特定渠道活动。先尝试价保；如果系统提示不支持，一般不能直接按直播价补差。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_081"
+    }
+  },
+  {
+    "instruction": "为什么别人同款比我便宜？",
+    "input": "",
+    "output": "价格差通常来自券、会员、地区补贴、支付优惠或活动时间。您可以先对比结算页优惠明细，看有没有未领取的券。只看商品页价格不一定能对齐到手价。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_082"
+    }
+  },
+  {
+    "instruction": "新人券领了却不能用。",
+    "input": "",
+    "output": "能领取不代表结算一定可用。新人券会在下单时再次校验账号和商品条件；以前买过可能不符合新用户规则。以券详情和结算校验为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_083"
+    }
+  },
+  {
+    "instruction": "预售价和到手价不一样，按哪个付？",
+    "input": "",
+    "output": "最终金额以尾款结算页为准。预售价要叠加定金、尾款、券和满减规则才成立。记得看尾款时间和优惠是否可叠加。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_084"
+    }
+  },
+  {
+    "instruction": "赠品付款后没显示，是不是没有了？",
+    "input": "",
+    "output": "先看订单明细有没有赠品行。如果付款时明确展示赠品但订单缺失，保留截图申请核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_085"
+    }
+  },
+  {
+    "instruction": "有人说加微信能返优惠差价。",
+    "input": "",
+    "output": "不要加私下账号处理返差价。优惠和退款都应在平台订单或售后入口完成。这里要注意，私下返款容易遇到诈骗。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_086"
+    }
+  },
+  {
+    "instruction": "支付优惠最后一步没减。",
+    "input": "",
+    "output": "支付优惠通常在支付环节实时校验。可能是名额用完、支付方式不符、金额不达标或活动结束。以最终支付页显示为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_087"
+    }
+  },
+  {
+    "instruction": "会员价下单后还能叠加券吗？",
+    "input": "",
+    "output": "先确认关键点：不要只看领取成功。能否叠加要看券规则。您可以在结算页看优惠明细，能叠加的会自动显示；不能叠加时页面会提示原因。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_088"
+    }
+  },
+  {
+    "instruction": "订单完成了还能补开发票吗？",
+    "input": "",
+    "output": "可以先看订单是否仍支持补开。进入订单详情或发票中心填写发票类型、抬头和税号。没有入口再联系客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_089"
+    }
+  },
+  {
+    "instruction": "普票已经开了，能改专票吗？",
+    "input": "",
+    "output": "能否改专票要看是否支持冲红重开。准备单位名称、税号和专票信息，由客服或发票页提交审核。结果以财务审核为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_090"
+    }
+  },
+  {
+    "instruction": "电子发票在哪里下载？",
+    "input": "",
+    "output": "到订单详情或发票中心找下载入口。如果显示已开票，一般可以下载 PDF 或查看邮箱发送记录。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_091"
+    }
+  },
+  {
+    "instruction": "发票抬头少写一个字，会影响报销。",
+    "input": "",
+    "output": "先确认关键点：是否影响报销以公司财务为准。先确认发票是否支持作废或冲红重开。如果页面没有修改入口，提供正确抬头、税号和订单信息给客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_092"
+    }
+  },
+  {
+    "instruction": "发票金额为什么比实付少？",
+    "input": "",
+    "output": "发票金额会受优惠、礼品卡、运费和开票规则影响。先核对订单实付明细和发票明细，不一致再提交截图核实。组合支付不一定都体现在同一张票里。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_093"
+    }
+  },
+  {
+    "instruction": "多个订单能合并开一张发票吗？",
+    "input": "",
+    "output": "是否能合并开票要看开票主体和页面规则。发票页能勾选多个订单才比较稳；不能勾选时通常要分别开。报销前最好确认财务要求。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_094"
+    }
+  },
+  {
+    "instruction": "运费可以开发票吗？",
+    "input": "",
+    "output": "运费是否开票看收费主体和开票规则。有些订单商品和运费可能分开开具，也可能不在当前发票里。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_095"
+    }
+  },
+  {
+    "instruction": "发票一直显示开票中。",
+    "input": "",
+    "output": "可以催开票进度。先看页面预计开票时间；超过时效后提供订单号和申请记录让客服反馈开票方。不要重复提交多次申请。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_096"
+    }
+  },
+  {
+    "instruction": "客服一直让我等，我想投诉。",
+    "input": "",
+    "output": "这种情况确实会影响使用。可以投诉，重点是把时间线和诉求写清楚。提交物流停滞截图、催查记录和希望的处理方案。材料越清楚，平台越容易判断责任。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_097"
+    }
+  },
+  {
+    "instruction": "我要转人工，不想再和机器人聊。",
+    "input": "",
+    "output": "可以从当前客服页选择转人工或问题未解决入口。转人工前建议准备订单截图、售后单号和已沟通结果。这样人工接手会更快。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "single",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_098"
+    }
+  },
+  {
+    "instruction": "商家拒绝退款，我能让平台强制退吗？",
+    "input": "",
+    "output": "平台不能在没有核实的情况下直接强制退款。您可以申请平台介入，提交商品、物流和沟通证据。最终要看责任认定和售后规则。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "single",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_099"
+    }
+  },
+  {
+    "instruction": "售后拖了十天，我很生气。",
+    "input": "",
+    "output": "这种情况确实会影响使用。拖了十天还没有结果，确实需要升级。在售后详情里申请平台介入或投诉，并写明每次沟通时间和未解决点。同时保留聊天记录和页面截图。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "single",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_single_100"
+    }
+  },
+  {
+    "instruction": "那我现在是催还是继续等？",
+    "input": "",
+    "output": "结合前面的情况，两天没有新节点多半是转运积压或漏扫，暂时不能直接判断丢件。建议现在就从物流页发起催查，不用再干等。催查会让承运方回查包裹位置。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "已经超过预计送达一天"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_001"
+    }
+  },
+  {
+    "instruction": "这种要怎么查？",
+    "input": "",
+    "output": "这一步先稳住：这类情况先按签收异常处理。在物流详情里提交未收到反馈，同时保留签收时间和投递地点截图。这里要注意，先别点确认收货或关闭售后入口。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "驿站、物业和家人都问过了"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_002"
+    }
+  },
+  {
+    "instruction": "还能改到新地址吗？",
+    "input": "",
+    "output": "结合前面的情况，发货后改地址要看承运方是否支持改派。先在物流页试修改地址；没有入口就联系配送员或申请拦截。距离太远时可能只能拒收后重拍。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "新地址和原地址不在一个区"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_003"
+    }
+  },
+  {
+    "instruction": "我现在签还是拒？",
+    "input": "",
+    "output": "外箱破损明显时，先当面验货。商品也破损或缺件就拒收；商品完好也请拍照留证。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "商品还没拆开验"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_004"
+    }
+  },
+  {
+    "instruction": "明天还会送吗？",
+    "input": "",
+    "output": "那先抓关键点：如果号码有误，要尽快在物流页反馈。一般会再次派送，但最好主动处理一下。先核对订单手机号，再联系配送员约定时间。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "页面原因写电话联系不上"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_005"
+    }
+  },
+  {
+    "instruction": "另一个还要等吗？",
+    "input": "",
+    "output": "结合前面的情况，一个订单拆成多个包裹很常见，通常和仓库、库存或商品体积有关。在订单详情里分别查看每个物流单号，按未到包裹的预计时间跟进。超过预计时间再单独催查未到包裹。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "其中一个包裹还没到"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_006"
+    }
+  },
+  {
+    "instruction": "这个链接能点吗？",
+    "input": "",
+    "output": "这一步先稳住：不要直接点陌生链接，也不要在里面填支付或证件信息。请回到订单物流页查看是否真的有费用提示，必要时联系官方客服核实。这里要注意，跨站链接很容易造成信息泄露。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "短信不是平台官方号码发的"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_007"
+    }
+  },
+  {
+    "instruction": "能不能催今天送？",
+    "input": "",
+    "output": "您这个进度确实不太省心。理解您着急用，已经到本地站点的话还有协商空间。可以先联系配送员说明今天必须收件，同时在物流页申请催派。能否当天送达取决于配送路线。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "物流已经到本地站点"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_008"
+    }
+  },
+  {
+    "instruction": "要不要我补资料？",
+    "input": "",
+    "output": "结合前面的情况，清关停留几天不一定是被扣，也可能在等待海关或承运方处理。先看订单页是否有补资料入口；没有官方入口时不要随意上传证件。清关资料只通过平台官方入口提交。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "清关已经三天没有变化"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_009"
+    }
+  },
+  {
+    "instruction": "能让他送上门吗？",
+    "input": "",
+    "output": "可以先联系配送员协商重新派送。如果未经同意放到远驿站，也可以在物流页反馈配送服务问题。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "驿站离家比较远"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_010"
+    }
+  },
+  {
+    "instruction": "还能继续派送吗？",
+    "input": "",
+    "output": "结合前面的情况，包裹已经退回后，原单通常很难继续派送。建议先看订单是否自动退款，再用正确地址重新下单。如果地址没问题，可以反馈退回原因让客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "退回原因写地址异常"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_011"
+    }
+  },
+  {
+    "instruction": "晚上能送吗？",
+    "input": "",
+    "output": "那先抓关键点：晚间派送取决于当地路线安排。可以尝试和配送员约时间，但页面没有入口时不能强制指定。建议尽快联系配送员说明可收货时段，联系不上再从物流页反馈。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "商品已经到配送站"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_012"
+    }
+  },
+  {
+    "instruction": "收到后怎么判断？",
+    "input": "",
+    "output": "结合前面的情况，能不能食用要看实际温控和商品状态，不能只看延误时间判断。收到后先检查冰袋、包装完整度、气味和商品状态；异常就拍照申请售后。生鲜问题要尽快反馈。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "包裹显示冷链运输"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_013"
+    }
+  },
+  {
+    "instruction": "我要不要点确认？",
+    "input": "",
+    "output": "这一步先稳住：不要先确认收货。请让配送员继续查找，并在物流页反馈包裹异常；确认收货后再处理会更被动。这里要注意，包裹未拿到前不要关闭交易状态。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "物流没有显示签收"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_014"
+    }
+  },
+  {
+    "instruction": "能不能优先处理？",
+    "input": "",
+    "output": "您这个进度确实不太省心。这种急用场景可以先走催查和催派。请在物流页反馈急用原因，同时联系配送员或官方客服催促。如果短时间无法送达，建议同步考虑线下或同城渠道。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "物流已经超过预计时间"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_015"
+    }
+  },
+  {
+    "instruction": "能换成顺丰吗？",
+    "input": "",
+    "output": "结合前面的情况，已经发出的包裹通常不能中途更换承运公司。您可以关注当前物流，或在到达本地后联系配送员协商派送时间。下次下单前可先看商品是否支持指定配送。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问一下物流问题。",
+        "请先看物流页的最新节点和异常原因。"
+      ],
+      [
+        "那现在物流这边显示什么？",
+        "已经有物流单号"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "物流跟踪",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_016"
+    }
+  },
+  {
+    "instruction": "还要再付一次吗？",
+    "input": "",
+    "output": "先不要重复支付。等几分钟刷新订单；如果仍是待付款，提供支付流水截图让客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "银行已经扣款"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_017"
+    }
+  },
+  {
+    "instruction": "要不要取消？",
+    "input": "",
+    "output": "结合前面的情况，备货中不等于缺货，但说明还没进入发货环节。可以先催发并看商家回复；如果急用，取消后买现货更稳。缺货时商家通常会给出延迟或退款提示。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "页面没有预计发货时间"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_018"
+    }
+  },
+  {
+    "instruction": "这个能拦回来吗？",
+    "input": "",
+    "output": "结合前面的情况，取消失败通常是订单已经打包、出库或交给物流。可以尝试物流拦截；拦截失败就等派送时拒收。退款要等拦截成功、拒收退回或退货完成。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "取消申请显示失败"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_019"
+    }
+  },
+  {
+    "instruction": "能恢复订单吗？",
+    "input": "",
+    "output": "那先抓关键点：能否保留原价要看活动和库存。先看取消原因，恢复原订单通常比较难。请把订单关闭原因截图发客服核实；如果是超时、缺货或风控导致，多数需要重新下单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "页面只写交易关闭"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_020"
+    }
+  },
+  {
+    "instruction": "是不是漏发？",
+    "input": "",
+    "output": "结合前面的情况，先别急着按漏发处理，可能是分包裹发货。在订单详情里看是否有多个物流单号；如果没有，再拍外包装和实收商品申请漏发核实。外包装和面单照片很关键。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "外包装没有明显破损"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_021"
+    }
+  },
+  {
+    "instruction": "能给吗？",
+    "input": "",
+    "output": "这一步先稳住：不要提供完整银行卡号、密码或验证码。订单问题请回到平台官方客服入口处理，最多按要求提供订单截图。这里要注意，验证码和支付信息不能交给任何私信人员。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "对方从私信联系我"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_022"
+    }
+  },
+  {
+    "instruction": "银行卡没收到退款。",
+    "input": "",
+    "output": "礼品卡支付部分通常退回礼品卡账户，不一定回到银行卡。您可以在礼品卡余额和退款详情里分别查看。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "订单已经取消"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_023"
+    }
+  },
+  {
+    "instruction": "我能要求马上处理吗？",
+    "input": "",
+    "output": "您这个进度确实不太省心。等了几天还没有明确结果，确实会影响安排。您可以要求商家确认最晚发货时间；急用的话，建议取消后换有现货的商品。继续等待也可能最终因缺货退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "商品显示采购中"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_024"
+    }
+  },
+  {
+    "instruction": "能帮我退定金吗？",
+    "input": "",
+    "output": "结合前面的情况，定金是否退还要看预售规则，不能直接保证可退。请先查看订单里的预售协议；如果规则写明逾期不退，客服也很难直接改。有争议时可以提交规则截图申请核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "尾款时间已经过了"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_025"
+    }
+  },
+  {
+    "instruction": "是不是漏退了？",
+    "input": "",
+    "output": "结合前面的情况，退款可能按商品拆分处理，不一定一次退完。先看另一件商品是否已取消或售后通过；没有进入退款流程的商品不会自动退款。组合订单要按商品维度看进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "两件商品一起付款"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_026"
+    }
+  },
+  {
+    "instruction": "取消重拍会不会亏优惠？",
+    "input": "",
+    "output": "那先抓关键点：取消后原活动价不一定能恢复。规格不能直接改时，取消重拍通常更稳，但要先看优惠是否还能用。建议先重新打开商品页确认库存和价格，再决定是否取消原单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "订单还没发货"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_027"
+    }
+  },
+  {
+    "instruction": "这个状态正常吗？",
+    "input": "",
+    "output": "结合前面的情况，订单完成和物流签收不一致时，需要先核实状态同步。请保留订单状态和物流截图，联系官方客服核实是否系统异常或签收信息延迟。先不要删除物流凭证。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "物流没有签收记录"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_028"
+    }
+  },
+  {
+    "instruction": "怎么处理重复扣款？",
+    "input": "",
+    "output": "这一步先稳住：先确认是否真的生成了两个订单。如果两个订单都存在，保留一个后尽快取消另一个；如果只有一个订单却扣两次，提供支付流水核实重复扣款。这里要注意，不要继续再次支付。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "银行卡也扣了两次"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_029"
+    }
+  },
+  {
+    "instruction": "入口在哪里？",
+    "input": "",
+    "output": "未出库时一般更容易修改。您可以进订单详情找修改收货信息入口；没有入口就联系官方客服协助。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我这个订单状态有点不对。",
+        "可以先确认订单当前状态和页面提示。"
+      ],
+      [
+        "页面现在具体写的是什么？",
+        "订单还在待出库"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "订单查询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_030"
+    }
+  },
+  {
+    "instruction": "可以直接换小一码吗？",
+    "input": "",
+    "output": "结合前面的情况，这种情况可以优先申请换货。在订单售后里选择换货并确认目标尺码库存；没有库存再考虑退货重拍。吊牌和包装尽量保留。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "没有水洗也没有污渍"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_031"
+    }
+  },
+  {
+    "instruction": "还能退吗？",
+    "input": "",
+    "output": "结合前面的情况，拆封试用后是否能退，要看商品类目和是否影响二次销售。可以先提交退货申请并说明试用情况，质量问题请补视频。不要丢包装和配件。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "用了十几分钟"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_032"
+    }
+  },
+  {
+    "instruction": "怎么改？",
+    "input": "",
+    "output": "可以先在售后取件页看有没有改约入口。没有入口就联系取件员协商，错过取件后可能需要重新预约。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "明天临时不在家"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_033"
+    }
+  },
+  {
+    "instruction": "影响退款吗？",
+    "input": "",
+    "output": "那先抓关键点：鞋盒属于包装的一部分。要看鞋盒破损是否影响二次销售。提交退货时把鞋盒和鞋子照片一起上传，售后会按商品状态审核。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "商品没穿过"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_034"
+    }
+  },
+  {
+    "instruction": "能换黑色吗？",
+    "input": "",
+    "output": "结合前面的情况，能否换颜色取决于商品是否支持换货和黑色库存。在售后页看可换规格；如果没有黑色可选，就退货后重新下单。不要先自行寄回。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "商品未拆封"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_035"
+    }
+  },
+  {
+    "instruction": "我先寄过去行不行？",
+    "input": "",
+    "output": "这一步先稳住：不建议私下寄回。请等售后单审核通过，并按售后页面地址寄件。这里要注意，私下寄回可能无法匹配售后单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "售后单还没审核通过"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_036"
+    }
+  },
+  {
+    "instruction": "我还能申诉吗？",
+    "input": "",
+    "output": "您这个进度确实不太省心。可以申诉，但要围绕拒绝原因补材料。请补商品现状、包装、配件和未使用痕迹照片；如果仍有争议，再申请平台介入复核。只说没用过通常证据不够。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "拒绝原因是影响二次销售"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_037"
+    }
+  },
+  {
+    "instruction": "现在申请晚不晚？",
+    "input": "",
+    "output": "结合前面的情况，生鲜售后很看反馈时效，隔天申请可能会影响审核。仍建议尽快上传商品状态、外包装和签收时间说明。越晚反馈越难判断责任。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "昨天晚上签收，今天才发现"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_038"
+    }
+  },
+  {
+    "instruction": "包装没了会被拒吗？",
+    "input": "",
+    "output": "结合前面的情况，包装缺失可能影响审核，但不代表一定不能申请。如实说明包装已丢，上传商品和配件照片，让售后按类目规则判断。需要完整包装的商品会更严格。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "配件都在"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_039"
+    }
+  },
+  {
+    "instruction": "今天能退吗？",
+    "input": "",
+    "output": "签收后还需要商家验货。一般等售后状态变成验货通过后才会退款；超过页面时效再催处理。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "商家昨天签收"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_040"
+    }
+  },
+  {
+    "instruction": "是不是商家签收就发新的？",
+    "input": "",
+    "output": "那先抓关键点：不同店铺换货流程会不同。不一定，通常要等旧商品签收并验货通过。您可以看换货单的审核节点；如果已通过但未发新货，再联系售后催发。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "旧商品已经寄回"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_041"
+    }
+  },
+  {
+    "instruction": "能换吗？",
+    "input": "",
+    "output": "结合前面的情况，可以按商品破损申请换货。上传书角折损、商品整体和外包装照片；有库存时通常优先换货。无库存时可能改退货退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "外包装没有明显破损"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_042"
+    }
+  },
+  {
+    "instruction": "还能退货吗？",
+    "input": "",
+    "output": "结合前面的情况，定制商品通常不支持无理由退货。如果是商家制作错误，上传下单尺寸和实物测量照片申请售后；如果是自己填错，可能只能协商处理。定制类要看责任归属。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "尺寸是我下单时填的"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_043"
+    }
+  },
+  {
+    "instruction": "要撤销吗？",
+    "input": "",
+    "output": "这一步先稳住：问题没解决前不要轻易撤销售后。先让商家说明撤销后的处理方式，并尽量通过平台售后单沟通。这里要注意，撤销后可能影响举证和处理进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想处理退换货。",
+        "先确认商品状态、包装配件和售后入口是否可申请。"
+      ],
+      [
+        "商品现在拆封或使用过吗？",
+        "现在还没解决"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "退换货",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_044"
+    }
+  },
+  {
+    "instruction": "是维修还是换新？",
+    "input": "",
+    "output": "结合前面的情况，超过退换期后通常先走保修维修或检测。在订单售后提交维修申请，上传故障视频和机器铭牌照片。是否换新要看检测结果和保修规则。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "还在保修期内"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_045"
+    }
+  },
+  {
+    "instruction": "能帮我催一下吗？",
+    "input": "",
+    "output": "您这个进度确实不太省心。三天没受理确实不太理想，可以升级催办。补充可上门时间、故障视频和联系电话，并在售后单里申请催处理。急用家电可以写明影响正常使用。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "售后单一直待受理"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_046"
+    }
+  },
+  {
+    "instruction": "找谁最快？",
+    "input": "",
+    "output": "先从安装服务单反馈更快。同时拍漏水视频和接口位置；如果判断不是安装问题，再转商品售后检测。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "刚安装完就漏"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_047"
+    }
+  },
+  {
+    "instruction": "要不要检测？",
+    "input": "",
+    "output": "那先抓关键点：不要自行拆修。用了两周后通常需要先提交质量问题售后。上传故障视频，按页面要求检测；确认质量问题后再维修、换货或退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "用了两周"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_048"
+    }
+  },
+  {
+    "instruction": "能补一个赠品吗？",
+    "input": "",
+    "output": "结合前面的情况，赠品能否单独补发要看活动规则和库存。在售后里选择赠品问题并上传损坏照片；不能补发时可能给其他方案。不要为了赠品直接退整单。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "主商品没问题"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_049"
+    }
+  },
+  {
+    "instruction": "补发还是退货？",
+    "input": "",
+    "output": "结合前面的情况，配件缺失一般先核实补发。拍商品全套、外包装和配件清单，提交配件漏发售后。无法补发时再看换货或退款。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "包装都翻过了"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_050"
+    }
+  },
+  {
+    "instruction": "是不是正常新机味？",
+    "input": "",
+    "output": "这一步先稳住：先停止使用，不建议继续通电测试。拍视频并保留包装，按质量安全问题提交售后。这里要注意，涉及异味、冒烟、发热要优先安全。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "刚插电就闻到了"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_051"
+    }
+  },
+  {
+    "instruction": "能不能换新？",
+    "input": "",
+    "output": "您这个进度确实不太省心。刚收到就发现亮点，可以按质量问题申请换货。上传屏幕亮点照片或视频、商品外观和包装照片。最终是否换新以检测和售后规则为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "包装和配件都在"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_052"
+    }
+  },
+  {
+    "instruction": "安装费和商品怎么办？",
+    "input": "",
+    "output": "结合前面的情况，先让师傅在服务单写明无法安装原因。保留现场照片，再分别申请安装费核实和商品退货售后。是否退款要看服务是否发生和商品状态。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "服务单还没写原因"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_053"
+    }
+  },
+  {
+    "instruction": "还能保修吗？",
+    "input": "",
+    "output": "结合前面的情况，说明书丢失一般不直接影响保修。保修更看订单记录、商品序列号和故障原因。如果配件缺失，部分处理可能受影响。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "订单还在保修期"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_054"
+    }
+  },
+  {
+    "instruction": "我怎么申诉？",
+    "input": "",
+    "output": "那先抓关键点：检测前先暂停使用。可以补充证据申请复核。上传涂层脱落细节、使用工具说明和购买时间，必要时申请平台介入。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "我没用金属铲"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_055"
+    }
+  },
+  {
+    "instruction": "要催谁？",
+    "input": "",
+    "output": "先催售后单，不要只催快递。把寄回物流单号发在售后单里，要求确认检测进度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "物流显示服务点已签收"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_056"
+    }
+  },
+  {
+    "instruction": "能换吗？",
+    "input": "",
+    "output": "结合前面的情况，刚签收就无法使用，可以按质量问题申请换货。上传不亮的视频、商品外观和包装照片。保留配件和赠品一起处理。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "商品刚签收"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_057"
+    }
+  },
+  {
+    "instruction": "我要怎么处理？",
+    "input": "",
+    "output": "这一步先稳住：鼓包电池有安全风险，先不要继续使用或充电。联系官方客服确认退回方式，按要求包装和寄送。这里要注意，不要自行拆开或挤压。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "外壳已经变形"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_058"
+    }
+  },
+  {
+    "instruction": "能不能先换一台？",
+    "input": "",
+    "output": "您这个进度确实不太省心。急用可以理解，但先换新要看售后规则和检测结果。您可以申请加急检测，同时说明工作急用；如果店铺有备用机或先换服务，再看是否符合条件。普通维修不一定支持先发新机。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "已经寄修三天"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_059"
+    }
+  },
+  {
+    "instruction": "这算质量问题吗？",
+    "input": "",
+    "output": "那先抓关键点：只凭体感很难直接定责。要先区分安装、使用环境和机器故障。建议拍运行视频、房间面积信息和安装位置，让售后或服务商判断。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "师傅说可能是房间太大"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_060"
+    }
+  },
+  {
+    "instruction": "能补寄螺丝吗？",
+    "input": "",
+    "output": "结合前面的情况，少螺丝通常优先补寄配件。拍配件包、说明书配件清单和外包装，提交配件缺失申请。不要先自行安装到一半再拆。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "商品使用时出了点问题。",
+        "先确认故障出现时间和订单售后状态。"
+      ],
+      [
+        "售后单现在到哪一步了？",
+        "其他板件都齐"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "售后服务",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_061"
+    }
+  },
+  {
+    "instruction": "能用吗？",
+    "input": "",
+    "output": "手机壳必须按完整机型匹配。请选规格里明确写 Pro 的版本，标准版通常不能混用。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "我手机是 Pro"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_062"
+    }
+  },
+  {
+    "instruction": "能备注只要新包装吗？",
+    "input": "",
+    "output": "结合前面的情况，可以备注，但不能保证仓库一定发新包装。如果页面有新版独立规格，请选对应规格；没有的话按实际库存批次发货。核心看规格、配方和保质期是否一致。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "评论有人收到旧包装"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_063"
+    }
+  },
+  {
+    "instruction": "能查具体日期吗？",
+    "input": "",
+    "output": "结合前面的情况，具体保质期要看仓库实际批次。下单前可以咨询商家是否能确认近期批次；收到后以罐底或包装标注为准。不建议客服随意估算日期。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "页面没写批次"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_064"
+    }
+  },
+  {
+    "instruction": "能不能直接买？",
+    "input": "",
+    "output": "那先抓关键点：规格不合可能充电慢或发热。先别只看接口，充电规格也要匹配。请核对平板原装功率、电压电流和快充协议，再选明确适配的款式。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "我只有平板型号"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_065"
+    }
+  },
+  {
+    "instruction": "有必要买升级款吗？",
+    "input": "",
+    "output": "如果只是日常使用，先看升级点是不是您真的需要。重点对比参数、配件和保修，不要只看“升级款”三个字。页面写清楚的差异才可靠。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "价格差几十块"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_066"
+    }
+  },
+  {
+    "instruction": "买这个稳不稳？",
+    "input": "",
+    "output": "结合前面的情况，20 寸不等于一定能登机。还要看外部尺寸、轮子和把手是否计入，以及航空公司规定。建议按航司尺寸限制核对后再买。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "我不想托运"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_067"
+    }
+  },
+  {
+    "instruction": "会额外收费吗？",
+    "input": "",
+    "output": "结合前面的情况，无电梯送上楼要看商品服务和当地配送规则。下单前看是否标注送货上楼及楼层限制，页面不清楚就先问商家。大件商品到货后再协商会比较被动。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "家里没有电梯"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_068"
+    }
+  },
+  {
+    "instruction": "能照着买吗？",
+    "input": "",
+    "output": "那先抓关键点：外观相似不代表能通用。滤芯适配要看机器型号和滤芯型号。建议拍机器铭牌、旧滤芯型号和接口，再让商家确认。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "旧滤芯上有型号"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_069"
+    }
+  },
+  {
+    "instruction": "大概多重？",
+    "input": "",
+    "output": "不建议估算重量。请以商品参数、包装信息或仓库称重为准；页面缺失时可以让商家核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "我想算运费"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_070"
+    }
+  },
+  {
+    "instruction": "看年龄可以吗？",
+    "input": "",
+    "output": "结合前面的情况，儿童座椅不要只看年龄。更要看身高、体重范围、安装方式和车辆接口。孩子接近边界时选余量更大的型号。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "孩子身高偏高"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_071"
+    }
+  },
+  {
+    "instruction": "能直接推荐 120 寸吗？",
+    "input": "",
+    "output": "不能只按客厅宽度定尺寸。还要看投影距离、投射比、墙面高度和观看距离。尺寸过大反而影响观看舒适度。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "客厅宽度够"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_072"
+    }
+  },
+  {
+    "instruction": "能买吗？",
+    "input": "",
+    "output": "结合前面的情况，是否正品要看店铺资质、商品来源和页面承诺。建议查看店铺类型、授权信息、评价和售后保障。收到后有疑问可凭订单和检测材料申请售后。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "店铺不是旗舰店"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_073"
+    }
+  },
+  {
+    "instruction": "高频能兼容吗？",
+    "input": "",
+    "output": "结合前面的情况，内存兼容要看代数、频率、容量和主板支持。请先确认机器支持上限，再选规格；不确定就让商家按型号核对。拆封试装后退货会更麻烦。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "笔记本支持 DDR4"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_074"
+    }
+  },
+  {
+    "instruction": "能不能要求新日期？",
+    "input": "",
+    "output": "能备注日期需求，但不一定能按备注发货。建议看页面是否标注临期或批次范围，收到后再核对包装日期。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "我不想收快过期的"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_075"
+    }
+  },
+  {
+    "instruction": "要不要买大一码？",
+    "input": "",
+    "output": "那先抓关键点：不同品牌版型差异会很大。尺码建议要看脚长和商品尺码表。您可以量脚长后对照详情页，不要只按平时码数选。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想买这个商品，但有点不确定。",
+        "可以先看商品规格、详情页说明和您的实际需求。"
+      ],
+      [
+        "您最担心的是哪一点？",
+        "平时穿 42"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "商品咨询",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_076"
+    }
+  },
+  {
+    "instruction": "怎么申请？",
+    "input": "",
+    "output": "结合前面的情况，先看订单是否支持价格保护。在订单详情里点价保申请，系统会自动校验差价。秒杀、预售或券后价可能不支持。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "下单半小时后降价"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_077"
+    }
+  },
+  {
+    "instruction": "哪里看原因？",
+    "input": "",
+    "output": "先点开结算页的不可用原因。常见是商品范围、金额门槛、叠加规则或账号限制不符合。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "券还没过期"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_078"
+    }
+  },
+  {
+    "instruction": "能不能补用？",
+    "input": "",
+    "output": "结合前面的情况，优惠券通常不能在下单后补用。如果还没发货可以考虑取消重拍；已发货一般按原订单价格履约。取消前先看券和库存是否还在。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "订单已经发货"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_079"
+    }
+  },
+  {
+    "instruction": "退款为什么少？",
+    "input": "",
+    "output": "结合前面的情况，会重新计算优惠。退款金额通常会扣除该商品分摊的满减，剩余订单不满足门槛时也会调整。提交前看退款预估明细。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "我只退其中一件"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_080"
+    }
+  },
+  {
+    "instruction": "能按直播价退吗？",
+    "input": "",
+    "output": "那先抓关键点：不同渠道优惠规则可能不同。直播价可能是特定渠道活动。先尝试价保；如果系统提示不支持，一般不能直接按直播价补差。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "我是普通页面买的"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_081"
+    }
+  },
+  {
+    "instruction": "是不是我被区别对待？",
+    "input": "",
+    "output": "价格差通常来自券、会员、地区补贴、支付优惠或活动时间。您可以先对比结算页优惠明细，看有没有未领取的券。只看商品页价格不一定能对齐到手价。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "朋友截图价格更低"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "light",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_082"
+    }
+  },
+  {
+    "instruction": "为什么还能领？",
+    "input": "",
+    "output": "结合前面的情况，能领取不代表结算一定可用。新人券会在下单时再次校验账号和商品条件；以前买过可能不符合新用户规则。以券详情和结算校验为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "我以前买过一次"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_083"
+    }
+  },
+  {
+    "instruction": "最后多少钱？",
+    "input": "",
+    "output": "结合前面的情况，最终金额以尾款结算页为准。预售价要叠加定金、尾款、券和满减规则才成立。记得看尾款时间和优惠是否可叠加。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "页面写定金膨胀"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_084"
+    }
+  },
+  {
+    "instruction": "能补吗？",
+    "input": "",
+    "output": "先看订单明细有没有赠品行。如果付款时明确展示赠品但订单缺失，保留截图申请核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "下单前页面看到有赠品"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_085"
+    }
+  },
+  {
+    "instruction": "可信吗？",
+    "input": "",
+    "output": "这一步先稳住：不要加私下账号处理返差价。优惠和退款都应在平台订单或售后入口完成。这里要注意，私下返款容易遇到诈骗。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "不是平台客服"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "risk",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_086"
+    }
+  },
+  {
+    "instruction": "为什么没优惠？",
+    "input": "",
+    "output": "结合前面的情况，支付优惠通常在支付环节实时校验。可能是名额用完、支付方式不符、金额不达标或活动结束。以最终支付页显示为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "银行卡符合活动"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_087"
+    }
+  },
+  {
+    "instruction": "能一起用吗？",
+    "input": "",
+    "output": "那先抓关键点：不要只看领取成功。能否叠加要看券规则。您可以在结算页看优惠明细，能叠加的会自动显示；不能叠加时页面会提示原因。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我想问下优惠问题。",
+        "优惠要以结算页和活动规则共同判断。"
+      ],
+      [
+        "结算页或券详情有什么提示？",
+        "我有一张店铺券"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "优惠活动",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_088"
+    }
+  },
+  {
+    "instruction": "现在怎么开？",
+    "input": "",
+    "output": "结合前面的情况，可以先看订单是否仍支持补开。进入订单详情或发票中心填写发票类型、抬头和税号。没有入口再联系客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "之前没申请"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_089"
+    }
+  },
+  {
+    "instruction": "可以重开吗？",
+    "input": "",
+    "output": "结合前面的情况，能否改专票要看是否支持冲红重开。准备单位名称、税号和专票信息，由客服或发票页提交审核。结果以财务审核为准。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "公司要求专票"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_090"
+    }
+  },
+  {
+    "instruction": "怎么下载？",
+    "input": "",
+    "output": "到订单详情或发票中心找下载入口。如果显示已开票，一般可以下载 PDF 或查看邮箱发送记录。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "页面显示已开票"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_091"
+    }
+  },
+  {
+    "instruction": "能改吗？",
+    "input": "",
+    "output": "那先抓关键点：是否影响报销以公司财务为准。先确认发票是否支持作废或冲红重开。如果页面没有修改入口，提供正确抬头、税号和订单信息给客服核实。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "发票已经开出"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "confirm",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_092"
+    }
+  },
+  {
+    "instruction": "是不是开错了？",
+    "input": "",
+    "output": "结合前面的情况，发票金额会受优惠、礼品卡、运费和开票规则影响。先核对订单实付明细和发票明细，不一致再提交截图核实。组合支付不一定都体现在同一张票里。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "用了优惠券和礼品卡"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_093"
+    }
+  },
+  {
+    "instruction": "能合开吗？",
+    "input": "",
+    "output": "结合前面的情况，是否能合并开票要看开票主体和页面规则。发票页能勾选多个订单才比较稳；不能勾选时通常要分别开。报销前最好确认财务要求。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "都是同一家店"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_094"
+    }
+  },
+  {
+    "instruction": "为什么票里没写？",
+    "input": "",
+    "output": "运费是否开票看收费主体和开票规则。有些订单商品和运费可能分开开具，也可能不在当前发票里。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "订单里有运费"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "short",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_095"
+    }
+  },
+  {
+    "instruction": "能催吗？",
+    "input": "",
+    "output": "结合前面的情况，可以催开票进度。先看页面预计开票时间；超过时效后提供订单号和申请记录让客服反馈开票方。不要重复提交多次申请。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "我需要处理发票。",
+        "发票要看订单状态、开票主体和发票页面入口。"
+      ],
+      [
+        "目前发票已经开出了吗？",
+        "提交两天了"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "发票",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_096"
+    }
+  },
+  {
+    "instruction": "怎么投诉有效？",
+    "input": "",
+    "output": "您这个进度确实不太省心。可以投诉，重点是把时间线和诉求写清楚。提交物流停滞截图、催查记录和希望的处理方案。材料越清楚，平台越容易判断责任。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "这个问题前面一直没解决。",
+        "如果常规客服没有解决，可以准备材料申请升级处理。"
+      ],
+      [
+        "您已经等了多久，页面现在是什么状态？",
+        "物流异常已经四天"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_097"
+    }
+  },
+  {
+    "instruction": "怎么转人工？",
+    "input": "",
+    "output": "结合前面的情况，可以从当前客服页选择转人工或问题未解决入口。转人工前建议准备订单截图、售后单号和已沟通结果。这样人工接手会更快。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "这个问题前面一直没解决。",
+        "如果常规客服没有解决，可以准备材料申请升级处理。"
+      ],
+      [
+        "您已经等了多久，页面现在是什么状态？",
+        "问题反复没解决"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "multi",
+      "answer_style": "direct",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_098"
+    }
+  },
+  {
+    "instruction": "平台能直接退吗？",
+    "input": "",
+    "output": "结合前面的情况，平台不能在没有核实的情况下直接强制退款。您可以申请平台介入，提交商品、物流和沟通证据。最终要看责任认定和售后规则。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "这个问题前面一直没解决。",
+        "如果常规客服没有解决，可以准备材料申请升级处理。"
+      ],
+      [
+        "您已经等了多久，页面现在是什么状态？",
+        "售后被商家驳回"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "multi",
+      "answer_style": "boundary",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_099"
+    }
+  },
+  {
+    "instruction": "我想升级处理。",
+    "input": "",
+    "output": "您这个进度确实不太省心。拖了十天还没有结果，确实需要升级。在售后详情里申请平台介入或投诉，并写明每次沟通时间和未解决点。同时保留聊天记录和页面截图。",
+    "system": "你是京东电商场景的中文客服助手。请根据顾客问题和已有对话上下文，给出礼貌、准确、可执行的客服回复。回答应先解决用户问题，再给出必要的安抚和兜底说明，不要重复同一句话。",
+    "history": [
+      [
+        "这个问题前面一直没解决。",
+        "如果常规客服没有解决，可以准备材料申请升级处理。"
+      ],
+      [
+        "您已经等了多久，页面现在是什么状态？",
+        "每次回复都说处理中"
+      ]
+    ],
+    "metadata": {
+      "source": "synthetic_demo3_200",
+      "category": "人工投诉",
+      "turn_type": "multi",
+      "answer_style": "empathy",
+      "style_reference": "项目一/数据处理/电商客服合成数据风格参考.md",
+      "sample_id": "demo3_multi_100"
+    }
+  }
+]
