@@ -1,0 +1,19 @@
+{
+  "openr1_math_sft_1k": {
+    "file_name": "openr1_math_sft_1k.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "openr1_math_dpo_1k": {
+    "file_name": "openr1_math_dpo_1k.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
